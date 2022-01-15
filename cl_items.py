@@ -39,13 +39,42 @@ class giraffe(big):
         self.move()
         self.move()
         self.move()
-        
+    def left_leg_forward(self):
+        print('Left leg rorward')
+    def left_leg_backward(self):
+        print('Left leg backward')
+    def right_leg_forward(self):
+        print('Right leg forward')
+    def right_leg_backward(self):
+        print('Right leg backward')
+    def dance_move(self):
+        self.left_leg_backward()
+        self.left_leg_forward()
+        self.right_leg_forward()
+        self.right_leg_backward()
+        self.left_leg_backward()
+        self.right_leg_backward()
+        self.right_leg_forward()
+        self.left_leg_forward()
+
 donald = giraffe()
 harold = giraffe()
+mike = giraffe()
 
 donald.eat()
 harold.move()
 donald.findfood()
+mike.dance_move()
+
+class giraffe:
+    def __init__(self, marks):
+        self.giraffe_marks = marks
+
+osvald = giraffe(100)
+gertrude = giraffe(200)
+
+print(osvald.giraffe_marks)
+print(gertrude.giraffe_marks)
 
 '''
 avery = turtle.pen()
