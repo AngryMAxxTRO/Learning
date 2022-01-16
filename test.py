@@ -1,6 +1,3 @@
-from ntpath import join
-
-
 a = abs(10) + abs(-10)
 b = abs(-10) + -10
 print(a, b)
