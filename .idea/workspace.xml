@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec4edc02-1d2a-415a-a9c9-ee03bd673aca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/octa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
