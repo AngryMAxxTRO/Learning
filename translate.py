@@ -10,6 +10,7 @@ def translate(phrase):
             translation = translation + letter
     return translation
 
+
 print(translate(input("Enter a phrase")))
 
 # This program is cool
@@ -21,7 +22,7 @@ Lines
 print("Comments are fun")
 
 try:
-    #value = 10 / 0
+    # value = 10 / 0
     number = int(input("Enter a number"))
     print(number)
 except ZeroDivisionError as err:

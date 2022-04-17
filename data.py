@@ -1,9 +1,9 @@
 import pickle
 
 data = {
-    "numbers" : 878.65,
-    "items" : ["item1", "item2", "item3"],
-    "position" : "pos45"
+    "numbers": 878.65,
+    "items": ["item1", "item2", "item3"],
+    "position": "pos45"
 }
 
 file = open("save.dat", "wb")

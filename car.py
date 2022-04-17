@@ -44,11 +44,13 @@ t.up()
 t.backward(200)
 t.down()
 
+
 def circle(r, g, b):
     t.color(r, g, b)
     t.begin_fill()
     t.circle(50)
     t.end_fill()
+
 
 circle(0, 1, 0)
 circle(1, 0.5, 0)
@@ -65,27 +67,29 @@ circle(1, 1, 1)
 
 t.reset()
 
+
 def square(side):
-    if fill == True:
+    if fill:
         t.begin_fill()
     for x in range(1, 5):
         t.forward(side)
         t.left(90)
-    if fill == True:
+    if fill:
         t.end_fill()
     for x in range(1, 5):
         t.forward(side)
-        t.left(-90)    
+        t.left(-90)
     for x in range(1, 5):
         t.back(side)
         t.right(90)
-    if fill == True:
+    if fill:
         t.begin_fill()
     for x in range(1, 5):
         t.back(side)
         t.right(-90)
-    if fill == True:
+    if fill:
         t.end_fill()
+
 
 fill = False
 square(25)

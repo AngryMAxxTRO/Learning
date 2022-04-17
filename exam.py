@@ -4,8 +4,8 @@ args = len(sys.argv)
 
 x = []
 
-for list in range (1, args):
-    x.append(sys.argv[list])
+for lst in range(1, args):
+    x.append(sys.argv[lst])
 
 x.reverse()
 

@@ -3,6 +3,6 @@ friends = ["Kevin", "Karen", "Jim", "Oscar"]
 friends[1] = "Mike"
 friends.append("Texas")
 friends.extend(lucky_numbers)
-print (friends)
+print(friends)
 friends.sort()
-print (friends)
+print(friends)

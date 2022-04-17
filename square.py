@@ -24,8 +24,10 @@ for i in range(1, 20):
     cur.left(95)
 
 cur.reset()
+
+
 def star(star, fill):
-    if fill == True:
+    if fill:
         cur.begin_fill()
     for i in range(1, 19):
         cur.forward(star)
@@ -33,9 +35,11 @@ def star(star, fill):
             cur.left(175)
         else:
             cur.left(225)
-    if fill == True:
+    if fill:
         cur.end_fill()
-cur.color(0.9, 0.75, 0)        
+
+
+cur.color(0.9, 0.75, 0)
 star(120, True)
 cur.color(0, 0, 0)
 star(120, False)
